@@ -1,7 +1,8 @@
 n = int(input())
 l = input().split()
-l = [int(i) for i in l]
-for i in range(1,len(l)+1):
+l = {int(i) for i in l}
+s = set(range(1, n+1))
+for i in s:
     if i not in l:
         print(i)
         break
