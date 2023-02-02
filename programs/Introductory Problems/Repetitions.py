@@ -2,13 +2,12 @@ s = input()
 temp = s[0]
 max = 0
 count = 0
-for i in s:
-    if i == temp:
+for i in range(len(s)):
+    if s[i] == temp:
         count += 1
     else:
-        temp = i
-        if max < count:
-            max = count
-        count = 0
+        count = 1
+        temp = s[i]
+    if count > max:
+        max = count
 print(max)
-        
