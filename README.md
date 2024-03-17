@@ -1,2 +1,3 @@
 # CSES
-My solution to all CSES problems : https://cses.fi/
+My solution to CSES problems : https://cses.fi/
+Work in progess
